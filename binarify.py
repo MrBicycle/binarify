@@ -1,3 +1,6 @@
+# Jeff Dickson
+# Aug 2022
+
 import sys
 
 #get inputs from the launch arguments
@@ -8,7 +11,7 @@ print(inNum)
 
 intSize = 8; #the bit representation of our integer, we will compare this to know params starting at 8 bit
 
-if inNum > 256:
+if inNum > 255:
     while inNum > (2**(intSize-1)):
         intSize *= 2 #first pass convert intSize from 8 bit to 16 bit
         
